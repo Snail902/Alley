@@ -14,7 +14,7 @@ public class HelloAction {
 	}
 	@GetMapping("/")//默认页面
 	public ModelAndView Index(ModelAndView mav) {
-		mav.setViewName("index");
+		mav.setViewName("index.html");
 		return mav;
 	}
 }
